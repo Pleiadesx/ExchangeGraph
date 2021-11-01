@@ -16,6 +16,9 @@ Make (I wrote a script to attempt to automate building but I have not tested it 
 First we need to build the frontend which we will place into the spring
 server so it can serve the static files directly
 
+
+IMPORTANT NOTE: Git messed with some line endings in gradlew, so running it or `make run` from a bash terminal might not work due to CRLF endings. If on linux I found [this question](https://askubuntu.com/questions/803162/how-to-change-windows-line-ending-to-unix-version) could help.
+
 ## Frontend
 
 Navigate to the frontend folder, install dependencies, and build the app
